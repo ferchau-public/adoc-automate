@@ -1,6 +1,3 @@
-LABEL org.opencontainers.image.description="ADOC Automate"
-LABEL org.opencontainers.image.licenses=MIT
-
 # Playwright version (pip package, must be available for the Python version below)
 # https://pypi.org/project/playwright/
 # https://playwright.dev/docs/release-notes
