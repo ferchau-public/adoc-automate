@@ -1,4 +1,3 @@
-LABEL org.opencontainers.image.source=https://github.com/ferchau-public/adoc-automate
 LABEL org.opencontainers.image.description="ADOC Automate"
 LABEL org.opencontainers.image.licenses=MIT
 
