@@ -12,7 +12,7 @@ docker container run \
      --interactive --rm \
      --user "$(id -u):$(id -g)" \
      --volume "$(pwd):/opt/prj/" \
-     adoc-automate \
+     ghcr.io/ferchau-public/adoc-automate:v1.0.1 \
          asciidoctor-pdf \
              --backend pdf \
              --failure-level=WARN \
@@ -27,7 +27,7 @@ docker container run \
      --interactive --rm \
      --user "$(id -u):$(id -g)" \
      --volume "$(pwd):/opt/prj/" \
-     adoc-automate \
+     ghcr.io/ferchau-public/adoc-automate:v1.0.1 \
          asciidoctor-revealjs \
              --failure-level=WARN \
              --verbose --timings \
@@ -39,7 +39,7 @@ docker container run \
      --interactive --rm \
      --user "$(id -u):$(id -g)" \
      --volume "$(pwd):/opt/prj/" \
-     adoc-automate \
+     ghcr.io/ferchau-public/adoc-automate:v1.0.1 \
          /bin/bash -c "\
          python reveal2pdf.py \
          file:///opt/prj/${INPUTFILE}.html \
